@@ -1,0 +1,20 @@
+.menu_toggle {
+    margin: 2px;
+    transition: .5s ease;
+
+    padding: 10px;
+    font-size: 30px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+
+.menu_toggle:hover{
+    cursor: pointer;
+    background-color: #F74D7A;
+    color: white;
+    opacity: .7;
+    border: 1px solid white;
+
+}

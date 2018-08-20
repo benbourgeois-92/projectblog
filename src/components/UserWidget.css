@@ -1,0 +1,39 @@
+.current_user {
+    transition: .5s ease;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: white;
+    margin: 2px;
+    border: 1px solid;
+    height: 50px;
+    border-radius: 30px;
+
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: none;
+
+
+}
+
+.current_user:hover {
+
+    background-color: #F74D7A;
+    color: white;
+    opacity: .7;
+    cursor: pointer;
+    border: 1px solid white;
+
+}
+
+.user_name{
+    padding-left: 15px;
+}
+
+.user_pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+

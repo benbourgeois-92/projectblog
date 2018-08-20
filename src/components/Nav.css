@@ -1,0 +1,23 @@
+.button {
+    margin: 2px;
+    transition: transform .3s;
+    padding: 10px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.button:hover {
+    transform: scale(1.5);
+    background-color: #F74D7A;
+    color: white;
+    opacity: .7;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
